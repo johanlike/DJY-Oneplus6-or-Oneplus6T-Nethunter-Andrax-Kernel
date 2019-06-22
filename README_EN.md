@@ -242,10 +242,9 @@ erro：ioctl_cfg80211.c:816:6: error: passing argument 2 of ‘cfg80211_roamed�
 
 
 
-* **5、If you still don't understand how to flash and use this kernel please refer to the following instruction:如果你真的还是不会刷入和使用那么请看以下说明**
+* **5、If you still don't understand how to flash and use this kernel please refer to the following instruction:**
 
-* **![Fack YOU](https://img.shields.io/badge/Fack%20YOU-yellow.svg)!!!You fucking stupid? A regular kernel flashing takes simply tow steps, and I wrote a huge load of articles, you still don't get it? If you can't read, can't you just fucking Google it?你他妈猪啊你，老子说明写那么详细，你TM都不会，其实就是正常的刷内核方式就TM两步老子给你写了三四个文档，百度谷歌总会吧？？？不会你TM玩蛋去吧你，来玩毛
-Nethunter和hacker啊！！！![Fack YOU](https://img.shields.io/badge/Fack%20YOU-yellow.svg)**
+* **![Fack YOU](https://img.shields.io/badge/Fack%20YOU-yellow.svg)!!!You fucking stupid? A regular kernel flashing takes simply tow steps, and I wrote a huge load of articles, you still don't get it? If you can't read, can't you just fucking Google it?!!!![Fack YOU](https://img.shields.io/badge/Fack%20YOU-yellow.svg)**
 
 # Common problems and solutions
 
