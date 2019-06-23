@@ -10,7 +10,7 @@
 [![GitHub License](https://img.shields.io/github/license/johanlike/DJY-Oneplus6-or-Oneplus6T-Nethunter-Andrax-Kernel.svg?style=popout-square)](https://github.com/johanlike/DJY-Oneplus6-or-Oneplus6T-Nethunter-Andrax-Kernel/blob/master/LICENSE)
 
 ***
-**其他语言(翻译来自@Noob-DaoXin 道心 等待翻译中.....): [English](README_EN.md)**![Click](https://img.shields.io/badge/Click-blue.svg)
+**其他语言(翻译来自@Firefox2100): [English](README_EN.md)**![Click](https://img.shields.io/badge/Click-blue.svg)
 
 
 
@@ -32,7 +32,6 @@
 * ![Click](https://img.shields.io/badge/Click-blue.svg)[设备购买推荐](#设备购买推荐)
 * ![Click](https://img.shields.io/badge/Click-blue.svg)[相关代码和致谢列表](#相关代码和致谢列表)
 * ![Click](https://img.shields.io/badge/Click-blue.svg)[联系方式](#联系方式)
-
 
 ***
 # 介绍
@@ -91,7 +90,6 @@
 * 各种转接头支持： SMA，HDMI，TNC..等接头支持 **![Warning](https://img.shields.io/badge/Warning-red.svg)(部分接头需要手工焊接转换,HDMI转换需要使用displaylink 芯片的视频适配器，推荐购买DA100)[DA100](https://github.com/johanlike/DJY-Oneplus6-or-Oneplus6T-Nethunter-Andrax-Kernel/blob/master/Equipment-purchase-recommendation/README.md/#DA100)![Click](https://img.shields.io/badge/Click-blue.svg)**
 * 自定义开机动画支持
 * 内核刷机包自动安装Magisk功能（暂时不完美待修复）
-
 
 ***
 
@@ -292,7 +290,6 @@ setprop sys.usb.config mac,ecm,hid,adb,mass_storage
 
 ![Click](https://img.shields.io/badge/Click-blue.svg)**[点击我查看设备购买推荐](Equipment-purchase-recommendation/)**
 
-
 ***
 
 
@@ -362,7 +359,6 @@ https://github.com/cyxx/extract_android_ota_payload ![Update](https://img.shield
 
 
 **如果我不小心漏了谁请联系我...因为我的记性不是很好。再次十分感谢各位做出的贡献**
-
 
 ***
 
