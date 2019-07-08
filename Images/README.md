@@ -18,7 +18,7 @@
 * [Chameleon-Mini变色龙](#chameleon-Mini)
 * [Airmon-ng-无线注入支持](#airmon-ng无线注入支持)
 * [adb-fastboot Chroot环境刷写支持](#adb-fastboot)
-* [OTG外接摄像头支持](#OTG外接摄像头支持)
+* [OTG外接摄像头支持](#otg外接摄像头支持)
 * [Arduino](#arduino)
 * [开机动画自定义](#开机动画自定义)
 

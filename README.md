@@ -122,19 +122,7 @@
 
 # 目前已知BUG和没有的功能
 
-1、![Fail](https://img.shields.io/badge/Build%20Fail-red.svg)**目前没有的功能是无线拓展兼容性(Wireless extension compatibility)，这个功能是用于外部无线网卡的。主要的功能性是用iwconfig命令调试OTG无线网卡功率，挂载，卸载和连接等功能用的。我也尝试移植过4.14 4.19 5.0 5.1内核的相关模块但也以失败告终。因为一旦开启这个模块，手机将会进入无限重启和宕机状态，需要使用OTG连接外部网卡才能开机。我抓取了没有这个模块和已经嵌入这个模块的开机日志。debuglog貌似说是厂商的WIFI芯片固件不支持这个模块。如果有人能解决这个请告诉我。十分感谢！！！以下是嵌入这个模块和没有嵌入这个模块的debuglog**
-
-**![Click](https://img.shields.io/badge/Click-blue.svg)[点击我下载调试日志](https://github.com/johanlike/DJY-Oneplus6-or-Oneplus6T-Nethunter-Andrax-Kernel/releases/download/Debuglog/Wireless.extension.compatibility-Debuglog.zip)**
-
-2、**![Fail](https://img.shields.io/badge/Build%20Fail-red.svg)~~8811au, 8812au, 8814au，8821au相关的5G无线网卡的驱动也是没有的。但是已经在考虑移植相关驱动队列中了。请等待往后版本~~(已放弃移植。我多次尝试移植相关的模块也尝试了许多不同的版本，但是都在编译打包相关模块的时候报错，具体错误是：erro：ioctl_cfg80211.c:816:6: error: passing argument 2 of ‘cfg80211_roamed’ from incompatible pointer type [-Werror=incompatible-pointer-types], notify_channel 我Google了相关的资料查看，发现出现此问题的非常多而且也没有相关的解决办法。我觉得是不支持内核4.9的原因。由于技术不够所以我决定放弃移植此相关模块。如果有人能解决相关问题请联系我改进，相关代码以上传到我的储存库当中)**
-
-**![Click](https://img.shields.io/badge/Click-blue.svg)[点击我查看内核代码](https://github.com/johanlike/DJY-Nethunter-Andrax-Kernel-Source)**
-
-3、**由于Android9.0 版本system as root的原因为了保证内核刷机包最大的兼容性和可移植性，![Warning](https://img.shields.io/badge/Warning-red.svg)我将在刷机包中添加删除/system/system/app/Duo/Duo.apk命令![Warning](https://img.shields.io/badge/Warning-red.svg)，以便应对不同OOS版本正常刷入的问题。如果你需要可以从新在谷歌应用商店下载此应用程序.以下是system as root相关资料**
-
-**![Click](https://img.shields.io/badge/Click-blue.svg)[sysetm as root](https://source.android.com/devices/bootloader/system-as-root)**
-
-4、内核刷机包Magisk自动安装脚本造成无法正常安装内核Bug。虽然这个问题有缓解方案。但是这个方案不是我想要的，所以有待修复.
+所有目前已知问题已经全部修复
 
 ***
 # Magisk模块拓展增量包
