@@ -1,3 +1,4 @@
+**Other languages: [中文](README.md)**
 Trying to update! please wait patiently.
 Upgrade the kernel again. The updated version is V86. This version of the kernel is more powerful than any previous version of the kernel. It not only supports 5G network card
 The attack also completely fixed all the issues mentioned in the iwconfig wireless extension compatibility driver module and the telegram group. comprehensive
